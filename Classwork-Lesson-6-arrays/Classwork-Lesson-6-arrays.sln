@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classwork-Lesson-6-arrays", "Classwork-Lesson-6-arrays\Classwork-Lesson-6-arrays.csproj", "{F949D37A-06DF-4DC1-BA3B-CED6B898DA57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F949D37A-06DF-4DC1-BA3B-CED6B898DA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F949D37A-06DF-4DC1-BA3B-CED6B898DA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F949D37A-06DF-4DC1-BA3B-CED6B898DA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F949D37A-06DF-4DC1-BA3B-CED6B898DA57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29852BE9-3ADD-4D45-995F-5B9354577272}
+	EndGlobalSection
+EndGlobal
