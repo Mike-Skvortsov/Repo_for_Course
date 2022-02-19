@@ -55,7 +55,7 @@ namespace Homework_Lesson_6_arrays
 				int minInd = i;
 				for (int j = i+1; j < arr.Length; j++)
 				{
-					if (arr[j] > arr[minInd])
+					if (arr[j] > arr[i])
 					{
 						minInd = j;
 
