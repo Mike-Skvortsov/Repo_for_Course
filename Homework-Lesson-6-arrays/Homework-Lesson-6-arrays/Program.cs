@@ -9,14 +9,14 @@ namespace Homework_Lesson_6_arrays
 		static void Main()
 		{
 			const int N = 4;
-			int[] array = new int[N] { 2, 44, 84, 1 };
+			int[] array = new int[N] { 2, 44, -84, 1 };
 			SortBubble(array, N);
 			foreach (var item in array)
 			{
 				Console.Write(item + "\t");
 			}
 			Console.Write("\n_________________________\n");
-			int[] array2 = new int[N] { 204, 445, 84, 1111 };
+			int[] array2 = new int[N] { 204, 445, 84, -1111 };
 			SortInsertion(array2, N);
 			foreach (var item in array2)
 			{
@@ -55,19 +55,20 @@ namespace Homework_Lesson_6_arrays
 				int minInd = i;
 				for (int j = i+1; j < arr.Length; j++)
 				{
-					if (arr[j] > arr[minInd])
+					if (arr[j] > arr[i])
 					{
 						minInd = j;
-
 						int temp = arr[minInd];
 						arr[minInd] = arr[i];
 						arr[i] = temp;
+						
+
 					}
 				}
 			}
 			return 0;
 		}
-		//Insertion Sort
+		//Insertion Sorts
 		static int SortInsertion(int[] arr, int N)
 		{
 			int j;
